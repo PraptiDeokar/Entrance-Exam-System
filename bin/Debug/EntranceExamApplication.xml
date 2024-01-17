@@ -1,0 +1,548 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EntranceExamApplication
+</name>
+</assembly>
+<members>
+<member name="T:EntranceExamApplication.ExamListDataSet.SetExamTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSet.SetExamTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSet.SetExamTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSetTableAdapters.SetExamTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.ExamListDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.ExamListDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.ExamListDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.ExamListDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.ExamListDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSet.RgRViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSet.RgRViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSet.RgRViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSetTableAdapters.RgRViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.ResultDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.ResultDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.ResultDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.ResultDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.ResultDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsd.HTRViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsd.HTRViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsd.HTRViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsd">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.HTRViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication._Hall_TicketDataSet2xsd,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication._Hall_TicketDataSet2xsd,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication._Hall_TicketDataSet2xsd,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication._Hall_TicketDataSet2xsd)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication._Hall_TicketDataSet2xsdTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSet.QCSubViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSet.QCSubViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSet.QCSubViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSetTableAdapters.QCSubViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.QuestionDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.QuestionDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.QuestionDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.QuestionDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.QuestionDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:EntranceExamApplication.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EntranceExamApplication.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EntranceExamApplication.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSet.CandInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSet.CandInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSet.CandInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSetTableAdapters.CandInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.CanDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.CanDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.CanDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.CanDetailsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.CanDetailsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1.CourseTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1.CourseTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1.CourseTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1TableAdapters.CourseTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSet.RgTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSet.RgTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSet.RgTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSetTableAdapters.RgTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.RgsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.RgsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.RgsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.RgsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.RgsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSet.ChapterTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSet.ChapterTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSet.ChapterTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSetTableAdapters.ChapterTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.ChapterDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.ChapterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.ChapterDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.ChapterDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.ChapterDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSet.SubTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSet.SubTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSet.SubTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSetTableAdapters.SubTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.SubDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.SubDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.SubDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.SubDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.SubDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSet.SetExamTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSet.SetExamTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSet.SetExamTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSetTableAdapters.SetExamTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EntranceExamApplication.HallTicketDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EntranceExamApplication.HallTicketDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EntranceExamApplication.HallTicketDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.UpdateAll(EntranceExamApplication.HallTicketDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:EntranceExamApplication.HallTicketDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:EntranceExamApplication.projDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>
